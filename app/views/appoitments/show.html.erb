@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Expected at:</strong>
+  <%= @appoitment.expected_at %>
+</p>
+
+<p>
+  <strong>Pet:</strong>
+  <%= @appoitment.pet_id %>
+</p>
+
+<p>
+  <strong>Reason:</strong>
+  <%= @appoitment.reason %>
+</p>
+
+<%= link_to 'Edit', edit_appoitment_path(@appoitment) %> |
+<%= link_to 'Back', appoitments_path %>
